@@ -59,15 +59,6 @@ int main(int argc, char **argv) {
 
     // ---- 不要修改以下代码 ----
     for (auto i = 0; i < 3; ++i) {
-        for (auto j = 0; j < problems[i].size(); ++j) {
-            std::cout << problems[i][j].c_str() << " ";
-        }
-        std::cout << std::endl;
-    }
-
-
-
-    for (auto i = 0; i < 3; ++i) {
         ASSERT(problems[i].size() == answers[i].size(), "wrong size");
         for (auto j = 0; j < problems[i].size(); ++j) {
             ASSERT(std::strcmp(problems[i][j].c_str(), answers[i][j]) == 0, "wrong location");
