@@ -65,6 +65,8 @@ int main(int argc, char **argv) {
         std::cout << std::endl;
     }
 
+
+
     for (auto i = 0; i < 3; ++i) {
         ASSERT(problems[i].size() == answers[i].size(), "wrong size");
         for (auto j = 0; j < problems[i].size(); ++j) {
