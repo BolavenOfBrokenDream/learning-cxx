@@ -62,7 +62,7 @@ int main(int argc, char **argv) {
         for (auto j = 0; j < problems[i].size(); ++j) {
             std::cout << problems[i][j].c_str() << " ";
         }
-        std::cout << endl;
+        std::cout << std::endl;
     }
 
     for (auto i = 0; i < 3; ++i) {
